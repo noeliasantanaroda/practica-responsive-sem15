@@ -1,7 +1,50 @@
 .navbar{
     background-color: grey;
-  
 }
-.nav-link{
+.navba{
+    margin-left: none;
+    margin-right: none;
+}
+.nav-item .nav-link {
     color: white;
-  }
+}
+.navbar-brand{
+    color: white;
+}
+/* Estilos personalizados */
+
+
+.carousel-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.carousel-border {
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.search-result {
+    display: none;
+    list-style: none;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+/* Ajustes para dispositivos pequeños y medianos */
+@media (max-width: 992px) {
+    .accordion-button {
+        display: block;
+        width: 100%;
+    }
+
+    /* Esconde el acordeón en pantallas pequeñas y medianas */
+    .d-lg-block {
+        display: none !important;
+    }
+}
+
+
